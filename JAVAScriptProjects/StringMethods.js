@@ -75,3 +75,17 @@ let text51 = "          Hello World!              ";
 console.log("the string is "+ text51);
 let trimString = text51.trimStart();
 console.log("the String is "+ trimString);
+
+// The use of charAt()
+let text61 = "Hello World";
+let char = text61.charAt(0);
+console.log("the character at the index 0 is "+ char);
+
+// The use of the toString()
+let num = 5;
+console.log("the Number is "+ num);
+console.log("the type of the Number is "+ typeof(num));
+let text71 = num.toString();
+console.log("the String is "+ text71);
+console.log("the type of the String is "+ typeof(text71));
+
