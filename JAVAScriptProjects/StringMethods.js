@@ -89,3 +89,5 @@ let text71 = num.toString();
 console.log("the String is "+ text71);
 console.log("the type of the String is "+ typeof(text71));
 
+// The Use of the String split()
+

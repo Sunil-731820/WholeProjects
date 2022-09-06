@@ -24,5 +24,20 @@ const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", 
 const d6 = new Date();
 console.log(days[d6.getDay()]);
 
+// Comparing the date 
+
+let text ="";
+const today = new Date();
+if(someday>today){
+    text = "today is before January 14 , 2100";
+    console.log(text);
+}else{
+    text = "Today is after january 14 , 2100";
+    console.log(text);
+}
+
+
+
+
 
 

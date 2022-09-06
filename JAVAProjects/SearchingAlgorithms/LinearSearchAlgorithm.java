@@ -38,6 +38,5 @@ public class LinearSearchAlgorithm {
         Search src = new Search();
         src.linear();
         src.linearSearch();
-
     }
 }
