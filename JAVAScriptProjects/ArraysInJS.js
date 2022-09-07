@@ -72,3 +72,4 @@ console.log(carsName);
 console.log("the type of the array is "+ typeof(carsName));
 console.log("after converting the array Objects in the aray is ");
 console.log(Array.isArray(carsName));
+

@@ -20,3 +20,5 @@ for(let i=0;i<cars.length;i++){
 for(let i=0;i<10;i++){
     console.log(i);
 }
+
+// 2 )

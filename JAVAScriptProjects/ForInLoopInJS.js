@@ -26,6 +26,7 @@ for(let x in numbers){
     console.log(x);
 }
 
+
 // The use of for of Loop again
 const person1 = ["Sunil","Harish","Arti","Suman"];
 console.log("the person is "+ person1);
@@ -39,6 +40,9 @@ for(let y in person1){
     console.log(person1[y]);
     console.log(y);
 }
+
+
+
 
 
 

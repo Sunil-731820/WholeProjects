@@ -19,9 +19,7 @@ console.log("the car2 is "+ car2);
 console.log(car2.name);
 console.log(car2.model);
 
-let car3 = new Cars();
-car3.name();
-console.log(car3.name());
+
 
 
 
