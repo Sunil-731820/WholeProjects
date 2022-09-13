@@ -1,7 +1,6 @@
 package JAVAProjects.FileInJava;
 
 import java.io.ByteArrayOutputStream;
-import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
 public class ByteArrayOutputStreamExample {
