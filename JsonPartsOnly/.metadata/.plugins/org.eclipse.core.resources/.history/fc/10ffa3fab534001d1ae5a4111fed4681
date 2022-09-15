@@ -1,0 +1,25 @@
+package com.java.json;
+
+import org.json.simple.JSONObject;
+import org.json.simple.JSONValue;
+
+public class JsonDecoding {
+	public static void main(String[] args) {
+		
+//		Converting the json data into the String format
+		String k = "{\"Full Name\":\"Ritu Sharma\",\"Tution Fees\":65400.0, \"Roll No.\":1704310046}";		
+		Object file = JSONValue.parse(k);
+		
+//		jsonObject is used to create the jsonObject into the Json Object
+		JSONObject jsonObjectDecode = (JSONObject) file;
+		
+//		Converting into the java Data type format from json
+		String name = (String) jsonObjectDecode.get("Full Name");
+		double fees = (Double) jsonObjectDecode.get("Tution Fees");
+		long rollno = (Long) jsonObjectDecode.get("Roll No.");
+		
+		System.out.println(name + " " + fees + " " + rollno);
+		
+		
+	}
+}

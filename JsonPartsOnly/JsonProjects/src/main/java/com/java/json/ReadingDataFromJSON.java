@@ -8,7 +8,9 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 
+import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
@@ -98,9 +100,36 @@ import com.google.gson.JsonObject;
 public class ReadingDataFromJSON {
 	public static void main(String[] args) throws FileNotFoundException, IOException, ParseException {
 		
-		Object obj =  new JSONParser().parse(new FileReader("C:\\Users\\sunilg\\Desktop\\File\\NODES.txt"));
+//		1 : Parsing the file of json data 
+		Object obj = new JSONParser().parse(new FileReader("C:\\Users\\sunilg\\Desktop\\FileRelatedParts\\NODES.txt"));
+//		2 : Typecasting the object into the json Objects formed
+		JSONObject jo = (JSONObject) obj;
 		
-		JSONObject obj = 
+//		Getting the type  and id of the data
+		String feature = (String) jo.get("type");
+		Long id = (Long) jo.get("id");
+		
+		System.out.println("The Type is "+ feature);
+		System.out.println("The Id is "+ id);
+		
+		Map geometry = ((Map) jo.get("geometry"));
+		Iterator<Map.Entry> itr1 = (Iterator<Entry>) geometry.entrySet();
+		while(itr1.hasNext()) {
+			Map.Entry pair = itr1.next();
+			System.out.println(pair.getKey() + " :" + pair.getValue());
+		}
+		
+//		JSONArray array = (JSONArray) jo.get("properties");
+		Map properties = (Map) jo.get("properties");
+		Iterator itr2 = (Iterator) properties.entrySet();
+		
+		while(itr2.hasNext()) {
+			Map.Entry pair1 = (Entry) itr2.next();
+			System.out.println(pair1.getKey() + " : "+ pair1.getValue());
+		}
+		
+		
+		
 		
 	}
 
