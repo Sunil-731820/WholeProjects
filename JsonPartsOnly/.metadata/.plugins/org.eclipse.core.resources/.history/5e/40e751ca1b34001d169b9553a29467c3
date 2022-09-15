@@ -1,0 +1,46 @@
+package com.java.json;
+
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.Reader;
+import java.util.List;
+
+import com.google.gson.Gson;
+
+class Node{
+	public String type;
+	public String id;
+	public Geometry geometry;
+	public Properties properties;
+	
+	
+}
+
+class Geometry{
+	public String type;
+	public List<Double> coordinates;
+	
+}
+
+class Properties{
+	public String name;
+	
+}
+
+
+public class ReadingDataFromJSON {
+	public static void main(String[] args) {
+		try {
+			Reader reader = new FileReader("C:\\Users\\sunilg\\Desktop\\FileRelatedParts\\NODES.txt");
+			Gson gson  = new Gson();
+			Node[] features = gson.fromJson(reader, Node[].class);
+			System.out.println(features);
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+	}
+
+}

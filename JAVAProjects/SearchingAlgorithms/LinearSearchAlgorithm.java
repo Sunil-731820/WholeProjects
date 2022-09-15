@@ -17,6 +17,7 @@ class Search{
             System.out.println("Enter the Element in the array");
             arr[i] = sc.nextInt();
         }
+        System.out.println("hello ");
         // Displaying the element using for loop
         for(int j=0;j<size;j++){
             System.out.print(arr[j] + " ");
