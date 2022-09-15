@@ -1,5 +1,10 @@
 package com.java.json;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import org.json.simple.JSONArray;
+
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -54,6 +59,7 @@ public class ObjectToJson {
 		org.setOrganisation_name("Infinite Computer Solutions");
 		org.setDescription("A Big MNC Company");
 		org.setEmployees(10000);
+	
 //		Return this to the organizations
 		return org;
 	}
@@ -81,8 +87,20 @@ public class ObjectToJson {
 		try {
 			String jsonstr = obj.writeValueAsString(org);
 			System.out.println(jsonstr);
+			
+			JSONArray array = new JSONArray();
+			array.add(jsonstr);
+			
+			List<String> list1 = new ArrayList<String>();
+			list1.addAll(array);
+			System.out.println("the list1 is ");
+			System.out.println(list1);
+			
+			
+			System.out.println("the array of the json is ");
+			System.out.println(array);
 //			5 : Displaying functions is 
-			display(org);
+//			display(org);
 		} catch (JsonProcessingException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

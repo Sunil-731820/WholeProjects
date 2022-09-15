@@ -7471,3 +7471,33 @@ Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to
 	at java.base/java.security.cert.CertPathBuilder.build(CertPathBuilder.java:297)
 	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:434)
 	... 32 more
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-15 16:23:46.800
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-15 16:23:46.805
+!MESSAGE classpath=12 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-15 16:23:46.810
+!MESSAGE buffering callback sts4.classpath.QqWVAukE JsonProjects false 12
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-15 16:23:46.813
+!MESSAGE executing callback sts4.classpath.QqWVAukE 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-15 16:23:46.883
+!MESSAGE executing callback sts4.classpath.QqWVAukE SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-15 16:23:49.146
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-15 16:23:49.155
+!MESSAGE classpath=12 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-15 16:23:49.163
+!MESSAGE buffering callback sts4.classpath.QqWVAukE JsonProjects false 12
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-15 16:23:49.168
+!MESSAGE executing callback sts4.classpath.QqWVAukE 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-15 16:23:49.257
+!MESSAGE executing callback sts4.classpath.QqWVAukE SUCCESS [done]

@@ -43,7 +43,8 @@ public class SortingPOJODataOfJson {
 //		JSONObject jo = new JSONObject();
 //		jo.put(new Person("22", "Sunil"),null);
 		JSONArray array = new JSONArray();
-		array.add(new Person("sunil", "22"));
+		array.add(new Person("22", "Sunil"));
+		array.add(new Person("23", "Harish"));
 		
 		System.out.println("the json Array  is ");
 //		System.out.println(jo);
@@ -51,6 +52,7 @@ public class SortingPOJODataOfJson {
 		
 		JSONObject jo = new JSONObject();
 		jo.put("Details", array);
+		
 		System.out.println("the json Object is ");
 		System.out.println(jo);
 		

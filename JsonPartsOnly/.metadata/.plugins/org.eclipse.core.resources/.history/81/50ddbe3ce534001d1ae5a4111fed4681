@@ -1,0 +1,12 @@
+package com.java.json;
+
+public class JsonTOXML {
+	public static void main(String[] args) {
+		String JsonData = "{\r\n"
+				+ "	\"firstName\" : \"John\",\r\n"
+				+ "	\"lastName\" : \"Kennedy\",}";
+		System.out.println("the Json Data is ");
+		System.out.println(JsonData);
+	}
+
+}
