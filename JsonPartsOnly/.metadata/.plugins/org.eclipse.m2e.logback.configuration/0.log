@@ -564,3 +564,15 @@
 2022-09-15 16:29:14,814 [Worker-180: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sunilg\eclipse-workspace11\JsonPartsOnly\JsonProjects\src\main\resources
 2022-09-15 16:29:14,815 [Worker-180: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-09-15 16:29:14,815 [Worker-180: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sunilg\eclipse-workspace11\JsonPartsOnly\JsonProjects\src\test\resources
+2022-09-15 16:57:10,476 [Worker-199: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-15 16:57:10,476 [Worker-199: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sunilg\eclipse-workspace11\JsonPartsOnly\JsonProjects\src\main\resources
+2022-09-15 16:57:10,479 [Worker-199: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-15 16:57:10,479 [Worker-199: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sunilg\eclipse-workspace11\JsonPartsOnly\JsonProjects\src\test\resources
+2022-09-15 22:13:27,015 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-09-16 09:36:06,037 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-09-16 10:09:00,122 [Worker-30: Launching CurrentFolderJsonDataReading] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-16 10:09:00,124 [Worker-30: Launching CurrentFolderJsonDataReading] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sunilg\eclipse-workspace11\JsonPartsOnly\JsonProjects\src\main\resources
+2022-09-16 10:09:00,125 [Worker-30: Launching CurrentFolderJsonDataReading] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-16 10:09:00,126 [Worker-30: Launching CurrentFolderJsonDataReading] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sunilg\eclipse-workspace11\JsonPartsOnly\JsonProjects\src\test\resources
+2022-09-19 12:09:18,694 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-09-19 12:09:19,957 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.

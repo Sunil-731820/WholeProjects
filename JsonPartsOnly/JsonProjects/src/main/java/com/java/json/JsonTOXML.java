@@ -17,3 +17,7 @@ public class JsonTOXML {
 	}
 
 }
+
+
+//	<firstName>John</firstName>
+//  <lastName>Kennedy</lastName>

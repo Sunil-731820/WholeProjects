@@ -1,0 +1,5 @@
+package Package2.Public;
+
+public class PublicClassExample {
+
+}

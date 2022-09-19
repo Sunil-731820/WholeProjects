@@ -1,0 +1,15 @@
+package Package2.PrivateAndProtected;
+
+class BetaPrivateAndProtected{
+	protected void iamPrivateAndProtected() {
+		System.out.println("I am calling the Private And Protected Here ");
+	}
+}
+
+public class AlphaPrivateAndProtected {
+	public static void main(String[] args) {
+		BetaPrivateAndProtected b11 = new BetaPrivateAndProtected();
+		b11.iamPrivateAndProtected();
+	}
+
+}

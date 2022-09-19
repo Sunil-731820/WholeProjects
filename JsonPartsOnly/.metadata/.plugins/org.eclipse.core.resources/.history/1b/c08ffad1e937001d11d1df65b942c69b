@@ -1,0 +1,9 @@
+package Package2;
+
+public class Alpha1 {
+	public static void main(String[] args) {
+		Alpha a2 = new Alpha();
+		
+	}
+
+}
