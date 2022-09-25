@@ -3,7 +3,7 @@ package Package2.Friendly;
 
 class AlphaFriendly{
 	
-	void iamFriendly() {
+	 void iamFriendly() {
 		System.out.println("I Am Very Friendly okay");
 	}
 }

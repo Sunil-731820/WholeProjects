@@ -1,7 +1,0 @@
-package com.java;
-
-public class PrintWriterExample {
-    public static void main(String[] args) {
-        PrinterWriter
-    }
-}
