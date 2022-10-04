@@ -1,0 +1,17 @@
+package com.java.jsonTaskAssign;
+
+interface Name{
+	public String say();
+}
+
+public class ImplementationAndNormalAndLambda {
+	public static void main(String[] args) {
+		Name name = ()->{
+			return "My Name is Sunil";
+		};
+		
+		System.out.println(name.say());
+		
+	}
+
+}
