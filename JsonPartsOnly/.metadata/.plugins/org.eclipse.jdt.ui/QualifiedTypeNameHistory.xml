@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.Object"/>
-    <fullyQualifiedTypeName name="org.json.XML"/>
-    <fullyQualifiedTypeName name="Package1.StudentDisplay"/>
-    <fullyQualifiedTypeName name="Package1.EmployDisplay"/>
-    <fullyQualifiedTypeName name="Package2.B"/>
-    <fullyQualifiedTypeName name="Package2.Alpha"/>
-    <fullyQualifiedTypeName name="Package2.Private.Beta"/>
-    <fullyQualifiedTypeName name="Package2.Private.Alpha"/>
-    <fullyQualifiedTypeName name="Package2.PrivateAndProtected.BetaPrivateAndProtected"/>
-    <fullyQualifiedTypeName name="Package2.PrivateAndProtected.AlphaPrivateAndProtected"/>
-    <fullyQualifiedTypeName name="Package2.Public.Alpha"/>
-    <fullyQualifiedTypeName name="Package2.Public.PublicClassExample"/>
     <fullyQualifiedTypeName name="Package2.Friendly.AlphaFriendly"/>
     <fullyQualifiedTypeName name="Package2.Friendly.AlphaFriendly.FriendlySpecifierExample"/>
     <fullyQualifiedTypeName name="JavaIO.FileReader"/>
@@ -23,7 +11,6 @@
     <fullyQualifiedTypeName name="java.io.BufferedInputStream"/>
     <fullyQualifiedTypeName name="java.util.Enumeration"/>
     <fullyQualifiedTypeName name="java.io.InputStream"/>
-    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="java.io.SequenceInputStream"/>
     <fullyQualifiedTypeName name="java.util.Vector"/>
@@ -34,7 +21,6 @@
     <fullyQualifiedTypeName name="java.lang.NoSuchFieldException"/>
     <fullyQualifiedTypeName name="java.lang.Double"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.stream.Stream"/>
     <fullyQualifiedTypeName name="javax.lang.model.element.Element"/>
@@ -42,7 +28,6 @@
     <fullyQualifiedTypeName name="StreamApIInJava.Product"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
     <fullyQualifiedTypeName name="javax.script.ScriptEngine"/>
     <fullyQualifiedTypeName name="javax.script.ScriptEngineManager"/>
@@ -58,6 +43,21 @@
     <fullyQualifiedTypeName name="javax.crypto.spec.PBEKeySpec"/>
     <fullyQualifiedTypeName name="javax.crypto.spec.SecretKeySpec"/>
     <fullyQualifiedTypeName name="StreamApIInJava.AESEncryptionAlgorithms"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.java.jsonTaskAssign.MyClass"/>
+    <fullyQualifiedTypeName name="com.java.jsonTaskAssign.GetInterface"/>
+    <fullyQualifiedTypeName name="com.java.jsonTaskAssign.Myclass"/>
+    <fullyQualifiedTypeName name="com.java.jsonTaskAssign.Myclass1"/>
+    <fullyQualifiedTypeName name="com.java.jsonTaskAssign.Messgable"/>
+    <fullyQualifiedTypeName name="com.java.jsonTaskAssign.Message"/>
+    <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.java.json.Employ"/>
 </qualifiedTypeNameHistroy>

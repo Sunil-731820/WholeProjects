@@ -1,0 +1,24 @@
+package com.java.jsonTaskAssign;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+public class ReadingDataFromFile {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in); 
+		String line = "";
+		try {
+			FileInputStream fin = new FileInputStream("C:\\Users\\sunilg\\Desktop\\EvenNumber.txt");
+			Scanner sc1 = new Scanner(fin);
+			while(sc1.hasNext()) {
+				line = sc1.nextLine();
+					System.out.println(line);
+			}
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+		
+	}
+
+}
