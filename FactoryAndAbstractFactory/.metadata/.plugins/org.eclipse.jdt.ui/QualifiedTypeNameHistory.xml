@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.java.fact.Factory.Rectangle"/>
+    <fullyQualifiedTypeName name="com.java.fact.Factory.Circle"/>
+    <fullyQualifiedTypeName name="com.java.fact.Factory.Square"/>
+    <fullyQualifiedTypeName name="com.java.fact.Factory.Shape"/>
+</qualifiedTypeNameHistroy>

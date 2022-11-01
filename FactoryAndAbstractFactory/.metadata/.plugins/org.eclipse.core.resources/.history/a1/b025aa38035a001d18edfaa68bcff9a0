@@ -1,0 +1,5 @@
+package com.java.fact.Factory;
+
+public class Shape {
+
+}
